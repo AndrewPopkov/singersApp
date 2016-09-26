@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppForYandex</string>
+    <string name="action_history">Просмотренные ранее</string>
+    <string name="titlestr">Исполнители</string>
+    <string name="title_activity_activity_history">Activity_history</string>
+
+</resources>
