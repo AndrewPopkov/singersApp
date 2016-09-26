@@ -91,6 +91,7 @@ public class PersonActivity extends AppCompatActivity  {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_history) {//вызываем список просмотренных записей
+            dataBase.closeСonnection();
             Intent intent = new Intent(PersonActivity.this, Activity_history.class);
             startActivity(intent);
             return true;

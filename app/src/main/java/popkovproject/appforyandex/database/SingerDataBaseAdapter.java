@@ -132,9 +132,13 @@ public class SingerDataBaseAdapter extends DBaseAdapter<Singer> {
             e.printStackTrace();
             Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG).show();
         }
+        catch (Exception e) {
+            e.printStackTrace();
+            Toast.makeText(mContext, e.getMessage(), Toast.LENGTH_LONG).show();
+        }
         finally {
-            database.close();
-            userCursor.close();
+//            database.close();
+//            userCursor.close();
         }
         return  rows;
     }

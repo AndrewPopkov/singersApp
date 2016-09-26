@@ -7,7 +7,7 @@ public class SingerDbSchema {
     public static final class SingerTable {
         public static final String TABLE_NAME = "singers";
         public static final class Cols {
-            public static final String KEY_ID = "id";
+            public static final String KEY_ID = "_id";
             public static final String KEY_NAME = "name";
             public static final String KEY_TRACKS = "tracks";
             public static final String KEY_ALBUMS = "albums";

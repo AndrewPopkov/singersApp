@@ -48,6 +48,7 @@ public class Activity_history extends AppCompatActivity {
         });
         singers = dataBase.getAllRow();
         setListAdapter();
+        dataBase.closeСonnection();
     }
     private void setListAdapter(){ // создаем адаптер и привязываем список к item_main
         myAdapter = new SingerAdapter(this,singers );
